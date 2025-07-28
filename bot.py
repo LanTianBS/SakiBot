@@ -1,10 +1,9 @@
 import discord
-from discord import app_commands
+from discord import app_commands,ui
 import logging
 import sys
 from dotenv import load_dotenv
 import os
-from discord import ui
 import json
 import difflib
 load_dotenv()
